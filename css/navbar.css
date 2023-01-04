@@ -1,0 +1,94 @@
+/* Style the navbar */
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Navbar links */
+  #navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  /* Page content */
+  .content {
+    padding: 16px;
+  }
+  
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 60px;
+  }
+
+/* css de navegacion adjuntado con navbar.js */
+  .bordesredondo{
+    border-radius:20px;
+  }
+  .negro{
+    color:black;
+    
+  }
+/* Estilos del logotipo */
+  .logo{
+    width: 70px;
+    height: 70px;
+    position:center;
+    border-radius:5px;
+    background-size:100%;
+    padding:10px;   
+    background-image: url("../img/logo3.jpg");
+}
+.mover{
+  color:white;
+  padding:5px;
+}
+/* CONFIGURACION DEL FOOTER DEL FOOTER */
+footer p{
+  color: rgb(255, 255, 255);
+  }
+/* CONFIGURACION DEL FOOTER */
+/* footer de alguna selección del css */
+.footer_config{
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 1px 2px 1px 1px #000;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#4c4c4c+0,666666+4,666666+4,111111+5,2c2c2c+10,2c2c2c+17,111111+17,111111+25,111111+29,111111+31,2b2b2b+36,2b2b2b+36,474747+39,111111+50,111111+50,111111+56,1c1c1c+91,131313+100 */
+  background: rgb(76,76,76); /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  rgba(76,76,76,1) 0%, rgba(102,102,102,1) 4%, rgba(102,102,102,1) 4%, rgba(17,17,17,1) 5%, rgba(44,44,44,1) 10%, rgba(44,44,44,1) 17%, rgba(17,17,17,1) 17%, rgba(17,17,17,1) 25%, rgba(17,17,17,1) 29%, rgba(17,17,17,1) 31%, rgba(43,43,43,1) 36%, rgba(43,43,43,1) 36%, rgba(71,71,71,1) 39%, rgba(17,17,17,1) 50%, rgba(17,17,17,1) 50%, rgba(17,17,17,1) 56%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg,  rgba(76,76,76,1) 0%,rgba(102,102,102,1) 4%,rgba(102,102,102,1) 4%,rgba(17,17,17,1) 5%,rgba(44,44,44,1) 10%,rgba(44,44,44,1) 17%,rgba(17,17,17,1) 17%,rgba(17,17,17,1) 25%,rgba(17,17,17,1) 29%,rgba(17,17,17,1) 31%,rgba(43,43,43,1) 36%,rgba(43,43,43,1) 36%,rgba(71,71,71,1) 39%,rgba(17,17,17,1) 50%,rgba(17,17,17,1) 50%,rgba(17,17,17,1) 56%,rgba(28,28,28,1) 91%,rgba(19,19,19,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg,  rgba(76,76,76,1) 0%,rgba(102,102,102,1) 4%,rgba(102,102,102,1) 4%,rgba(17,17,17,1) 5%,rgba(44,44,44,1) 10%,rgba(44,44,44,1) 17%,rgba(17,17,17,1) 17%,rgba(17,17,17,1) 25%,rgba(17,17,17,1) 29%,rgba(17,17,17,1) 31%,rgba(43,43,43,1) 36%,rgba(43,43,43,1) 36%,rgba(71,71,71,1) 39%,rgba(17,17,17,1) 50%,rgba(17,17,17,1) 50%,rgba(17,17,17,1) 56%,rgba(28,28,28,1) 91%,rgba(19,19,19,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+/* CONFIGURACION DEL MARGEN DEL PIE DE PAGINA EN PARRAFO(p) */
+.footer_config,p{
+  margin:10px;
+}
+
+.espacio{
+  padding:5px; 
+  color:white;
+  text-decoration:none;
+  text-shadow: 2px 2px 7px #fff;
+}
+b.integro{
+  color:white;
+  padding:5px;
+}
+a.espacio:hover{
+  color:white;
+}
+div a{
+  display:inline-block;
+}
